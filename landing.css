@@ -1,3 +1,85 @@
+.phone-screenshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+}
+/* Phone Mockup Styles */
+.phone-mockup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.phone-screen {
+  width: 240px;
+  height: 480px;
+  background: #fff;
+  border: 8px solid #222;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-header {
+  background: var(--brand-gold);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+}
+
+.phone-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2rem 1rem 0.8rem 1rem;
+}
+
+.phone-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--brand-dark);
+}
+
+.phone-gown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.gown-item {
+  background: var(--brand-cream);
+  border-radius: 8px;
+  padding: 0.7rem 0.8rem;
+  color: var(--brand-dark);
+  font-size: 0.98rem;
+  box-shadow: 0 1px 4px rgba(197,163,115,0.08);
+}
+
+.phone-footer {
+  background: var(--brand-gold);
+  color: #fff;
+  text-align: center;
+  padding: 0.7rem 0;
+  border-radius: 0 0 24px 24px;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.phone-footer:hover {
+  background: #a88a5c;
+}
 :root {
   --brand-dark: #1a1110;
   --brand-gold: #c5a373;
